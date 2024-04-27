@@ -1,0 +1,26 @@
+{
+	"name": "7-segment-words",
+	"description": "Longest Word You Can Write With Seven-Segment Displays",
+	"version": "1.0.0",
+	"author": {
+		"name": "Lou Cyx",
+		"email": "git@lou.cx",
+		"url": "https://lou.cx"
+	},
+	"devDependencies": {
+		"@lou.codes/configs": "^5.0.11",
+		"eslint": "8",
+		"prettier": "^3.2.5"
+	},
+	"keywords": [
+		"challenge",
+		"golf"
+	],
+	"license": "MIT",
+	"scripts": {
+		"bonus": "node ./bonus.js",
+		"v1": "node ./v1.js",
+		"v2": "node ./v2.js"
+	},
+	"type": "module"
+}
